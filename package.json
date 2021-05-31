@@ -1,0 +1,20 @@
+{
+  "name": "rest-full-tdd-treining",
+  "version": "1.0.0",
+  "description": "Diretório dedicado a pratica de sequelize com tdd e jwt.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dekopossas/rest-full-tdd-treining.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dekopossas/rest-full-tdd-treining/issues"
+  },
+  "homepage": "https://github.com/dekopossas/rest-full-tdd-treining#readme"
+}
