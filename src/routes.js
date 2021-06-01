@@ -1,5 +1,6 @@
 const routes = require('express').Router();
+const { User } = require('./app/models');
 
-// Pré definição das rotas
+User.create({ name: 'Deko', email: 'dekopossaster@gmail.com', password_has: '32132132654' });
 
 module.exports = routes;

@@ -5,7 +5,7 @@ class AppController {
     this.express = express;
 
     this.middlewares();
-    this.routes();
+    this.router();
   }
   middlewares() {
     this.express.use(express.json());
