@@ -3,6 +3,7 @@ let rl = linebyline('./banco.txt');
 
 rl.on('line', (line, lineCount) => {
   // faça algo com a linha
+  if (lineCount % 2 === 0)
   console.log(`Estou na linha: ${lineCount} com o valor ${line}`)
 });
 
