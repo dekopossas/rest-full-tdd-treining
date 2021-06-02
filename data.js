@@ -3,7 +3,6 @@ let rl = linebyline('./banco.txt');
 
 rl.on('line', (line, lineCount) => {
   // faça algo com a linha
-  let emploies = [];
   if(!line) return;
   if (lineCount % 2 === 1){
     let dados = line.split(';');
@@ -16,9 +15,8 @@ rl.on('line', (line, lineCount) => {
       Salario: dados[5],
       Status: dados[6],
     }
-    emploies.push(employ)
+    // salvar no mongo
   }
-  return emploies;
 });
 
 rl.on('error', (e) => {
